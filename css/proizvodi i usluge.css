@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #34699A;
+    font-family: sans-serif;
+}
+
+#naslov{
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    margin-top: 40px;
+    animation: animacija 4s infinite;
+}
+
+#meni header{
+    text-align: center;
+}
+
+#meni a{
+    background-color: #113F67;
+    border-radius: 10px 10px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+}
+
+#meni a:hover{
+    color: #408AB4;
+    text-shadow: 4px 4px 4px black;
+    transition: 0.3s;
+}
+
+#glavni{
+    display: block;
+    text-align: center;
+    margin: 20px;
+    position:relative;
+}
+
+#glavni img{
+    border: 1px solid #65C6C4;
+    border-radius: 20px 20px;
+}
+
+#glavni p{
+    color: white;
+    text-shadow: 4px 4px 5px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prvi, .drugi, .treci, .cetvrti{
+    padding: 20px;
+}
+
+#naslov{animation-timing-function: ease-in-out;}
+
+@media screen and (max-width:600px){
+    #meni a{
+        width: 100%;
+        font-size: 18px;
+    }
+}
+@keyframes animacija { 
+    0%{background-color: #34699A;}
+    25%{background-color: #113F67;}
+    50%{background-color: #408AB4;}
+    100%{background-color: #65C6C4;}
+}

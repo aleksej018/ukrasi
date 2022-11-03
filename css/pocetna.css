@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #34699A;
+    font-family: sans-serif;
+}
+
+#meni header{
+    text-align: center;
+}
+
+#meni a{
+    background-color: #113F67;
+    border-radius: 10px 10px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+}
+
+#meni a:hover{
+    color: #408AB4;
+    text-shadow: 4px 4px 4px black;
+    transition: 0.3s;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    margin-top: 60px;
+}
+
+#glavni{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 150px;
+}
+
+.prvi, .drugi, .treci{
+    width: 20%;
+    height: 400px;
+    background-color: #408AB4;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+}
+
+@media screen and (max-width:500px){
+    #meni a{
+        width: 100%;
+        font-size: 18px;
+    }
+    .prvi, .drugi, .traci{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .prvi, .drugi, .treci{
+        width: 100%;
+    }
+}
