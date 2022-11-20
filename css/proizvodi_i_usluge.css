@@ -71,7 +71,7 @@ body{
     }
     .prvi, .drugi, .treci, .cetvrti{
         padding: 10px;
-        height: 300px;
+        height: 200px;
         width: 200px;
     }
 }
