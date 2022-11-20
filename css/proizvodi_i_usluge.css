@@ -69,12 +69,11 @@ body{
         width: 100%;
         font-size: 18px;
     }
-    #glavni img{
-    border: 1px solid #65C6C4;
-    border-radius: 10px 10px;
-    height: 200px;
-    width: 200px;
-}
+    .prvi, .drugi, .treci, .cetvrti{
+        padding: 10px;
+        height: 300px;
+        width: 200px;
+    }
 }
 @keyframes animacija { 
     0%{background-color: #34699A;}
