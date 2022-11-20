@@ -69,8 +69,9 @@ body{
         width: 100%;
         font-size: 18px;
     }
-    .prvi, .drugi, .treci, .cetvrti{
-        padding: 10px;
+    #glavni img{
+        border: 1px solid #65C6C4;
+        border-radius: 20px 20px;
         height: 200px;
         width: 200px;
     }
