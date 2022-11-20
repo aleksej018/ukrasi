@@ -49,6 +49,8 @@ body{
 #glavni img{
     border: 1px solid #65C6C4;
     border-radius: 20px 20px;
+    height: 300px;
+    width: 350px;
 }
 
 #glavni p{
